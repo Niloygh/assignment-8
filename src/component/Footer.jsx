@@ -48,7 +48,7 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
               <li>
                 <Link
-                  href="/generate"
+                  href="/Sunglasses"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Sunglasses
@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/all-photos"
+                  href="/Men"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Men
@@ -64,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/pricing"
+                  href="/Women"
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Women
@@ -109,21 +109,21 @@ const Footer = () => {
           {/* CTA Block */}
           <div className="space-y-4">
             <h3 className="text-sm font-semibold text-black dark:text-white">
-              Start creating
+              Start Shopping
             </h3>
 
             <p className="text-sm text-gray-600 dark:text-gray-400">
-              Generate your first AI image today.
+              Discover the latest trends in sunglasses and upgrade your style today.
             </p>
 
             <Link
-              href="/signup"
+              href="/"
               className="inline-flex items-center justify-center px-5 py-2.5 rounded-full 
               bg-black text-white dark:bg-white dark:text-black 
               text-sm font-medium transition-all duration-200 
               hover:scale-[1.02] hover:shadow-lg hover:shadow-black/10 dark:hover:shadow-white/10"
             >
-              Get Started
+              Shop Now
             </Link>
           </div>
         </div>
@@ -133,7 +133,7 @@ const Footer = () => {
 
         {/* Bottom */}
         <div className="mt-6 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500 dark:text-gray-400">
-          <p>© {new Date().getFullYear()} pixgen. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Sunglass. All rights reserved.</p>
 
           <div className="flex items-center gap-6">
             <Link
