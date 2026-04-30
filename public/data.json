@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/example1.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Wireless Bluetooth Earbuds",
+    "brand": "SoundMax",
+    "price": 25,
+    "rating": 4.5,
+    "stock": 20,
+    "description": "High-quality wireless earbuds with noise cancellation.",
+    "image": "https://i.postimg.cc/example2.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 3,
+    "name": "Men's Casual T-Shirt",
+    "brand": "UrbanWear",
+    "price": 12,
+    "rating": 4.3,
+    "stock": 30,
+    "description": "Comfortable cotton t-shirt for everyday wear.",
+    "image": "https://i.postimg.cc/example3.png",
+    "category": "Clothing"
+  },
+  {
+    "id": 4,
+    "name": "Smart Fitness Watch",
+    "brand": "FitPro",
+    "price": 45,
+    "rating": 4.6,
+    "stock": 15,
+    "description": "Track your health and fitness with this smart watch.",
+    "image": "https://i.postimg.cc/example4.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 5,
+    "name": "Leather Wallet",
+    "brand": "ClassicStyle",
+    "price": 18,
+    "rating": 4.4,
+    "stock": 25,
+    "description": "Premium leather wallet with multiple card slots.",
+    "image": "https://i.postimg.cc/example5.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 6,
+    "name": "Women's Handbag",
+    "brand": "Elegance",
+    "price": 35,
+    "rating": 4.8,
+    "stock": 12,
+    "description": "Elegant handbag suitable for all occasions.",
+    "image": "https://i.postimg.cc/example6.png",
+    "category": "Accessories"
+  }
+]
