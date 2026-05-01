@@ -14,11 +14,11 @@ const SunglassCard = ({ sunglass }) => {
                     alt={sunglass.name}
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     className='object-cover rounded-xl' />
-            </div>
+            </div>  
 
             <h1>{sunglass.name}</h1>
 
-            <div className="flex items-center gap-5 ">
+            <div className="flex items-center justify-between gap-5 ">
                 <p className=' flex items-center gap-2'><FaStar />{sunglass.rating}</p>
                 <Separator orientation='vertical' />
                 <p className=' flex items-center gap-2'>${sunglass.price}</p>

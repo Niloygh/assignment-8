@@ -12,7 +12,7 @@ const Banner = async() => {
     console.log(sunglasses)
     
   return (
-    <div className="">
+    <div className="my-10">
         <div className="">
             <Image src={'/banner.jpg'} width={500} height={500} alt="banner image" className="w-full h-130 object-cover "/>
         </div>
