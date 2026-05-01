@@ -24,7 +24,7 @@ const SunglassCard = ({ sunglass }) => {
                 <p className=' flex items-center gap-2'>${sunglass.price}</p>
             </div>
 
-            <Link href={`/`}>
+            <Link href={`/productDetails`}>
                 <Button variant='outline' className={'w-full'} >View</Button>
             </Link>
 
