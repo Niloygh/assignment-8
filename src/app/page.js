@@ -1,10 +1,11 @@
 import Banner from "@/component/homepage/Banner";
-import Image from "next/image";
+import SummerCare from "@/component/homepage/SummerCare";
 
 export default function Home() {
   return (
     <div>
       <Banner />
+      <SummerCare />
     </div>
   );
 }
