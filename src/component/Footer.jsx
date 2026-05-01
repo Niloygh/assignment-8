@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -40,38 +41,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Product */}
-          <div>
-            <h3 className="text-sm font-semibold text-black dark:text-white mb-4">
-              Product
-            </h3>
-            <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-400">
-              <li>
-                <Link
-                  href="/Sunglasses"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Sunglasses
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Men"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Men
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/Women"
-                  className="hover:text-black dark:hover:text-white transition"
-                >
-                  Women
-                </Link>
-              </li>
-            </ul>
-          </div>
 
           {/* Company */}
           <div>
@@ -101,6 +70,39 @@ const Footer = () => {
                   className="hover:text-black dark:hover:text-white transition"
                 >
                   Terms
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+
+          {/* social links */}
+          <div >
+            <h1 className="text-sm font-semibold text-black dark:text-white mb-4">Social Links</h1>
+
+            <ul className="space-y-3 text-2xl text-gray-600 dark:text-gray-400 flex gap-2">
+              <li>
+                <Link
+                  href="/about"
+                  className="hover:text-black dark:hover:text-white transition"
+                >
+                  <FaFacebook />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contact"
+                  className="hover:text-black dark:hover:text-white transition"
+                >
+                  <FaInstagram />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/terms"
+                  className="hover:text-black dark:hover:text-white transition"
+                >
+                  <FaTwitter />
                 </Link>
               </li>
             </ul>
