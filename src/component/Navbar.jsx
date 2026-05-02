@@ -2,8 +2,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import DropdownPage from "./DropdownPage";
+import { authClient } from "@/lib/auth-client";
+import { Avatar, Button } from "@heroui/react";
 
 const Navbar = () => {
+    const userData = authClient.useSession()
+    const user = userData.data?.user
+    // console.log(user)
+
+    const handleSignOut = async () => {
+        await authClient.signOut()
+    }
 
 
     return (
@@ -43,14 +52,26 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex gap-4">
-                    <ul className="flex items-center gap-5  text-sm">
+                    {!user ? <ul className="flex items-center gap-5  text-sm">
                         <li>
                             <Link href={"/login"}>Login</Link>
                         </li>
                         <li>
                             <Link href={"/register"}>Register</Link>
                         </li>
-                    </ul>
+                    </ul> : <div className="flex items-center gap-3">
+                        <Avatar size="sm">
+                            <Avatar.Image
+                                alt={user?.name}
+                                src={user?.image}
+                                referrerPolicy="no-referrer" />
+                            <Avatar.Fallback>{user?.name[0]}</Avatar.Fallback>
+                        </Avatar>
+
+                        <Button onClick={handleSignOut} className={'text-sm'} variant="danger">Logout</Button>
+                        
+                        
+                    </div>}
                 </div>
 
 
