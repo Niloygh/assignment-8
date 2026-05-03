@@ -11,6 +11,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { GrGoogle } from "react-icons/gr";
 import { toast } from "react-toastify";
 
 export default function registerPage() {
@@ -22,7 +23,7 @@ export default function registerPage() {
     const email = e.target.email.value
     const password = e.target.password.value
 
-    const {data, error} = await authClient.signUp.email({
+    const { data, error } = await authClient.signUp.email({
       name,
       image,
       email,
@@ -30,15 +31,19 @@ export default function registerPage() {
     })
     // console.log({data, error})
 
-    if(error){
+    if (error) {
       toast.error("Error Register:" + error.message)
     }
-    if(data){
+    if (data) {
       toast.success("Register successful")
       router.push('/')
     }
+  };
 
-    
+  const handleGoogleSignIn = async () => {
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
   };
 
   return (
@@ -112,6 +117,9 @@ export default function registerPage() {
           </Button>
         </div>
       </Form>
+      <p className="text-center ">Or</p>
+      <Button onClick={handleGoogleSignIn} variant="outline" className={'w-full'} ><GrGoogle /> Sign In With Google</Button>
+
     </Card>
   );
 }

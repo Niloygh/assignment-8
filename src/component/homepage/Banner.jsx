@@ -14,7 +14,7 @@ const Banner = async () => {
   return (
     <div className="my-10">
       <div className="">
-        <Image src={'https://res.cloudinary.com/djln1tzzz/image/upload/q_auto/f_auto/v1777734967/Gemini_Generated_Image_a3ff9ta3ff9ta3ff_qcyxmq.png'} width={500} height={500} alt="banner image" className="w-full h-130  " />
+        <Image src={'https://res.cloudinary.com/djln1tzzz/image/upload/q_auto/f_auto/v1777734967/Gemini_Generated_Image_a3ff9ta3ff9ta3ff_qcyxmq.png'} width={500} height={500} alt="banner image" className="w-full lg:h-130  " />
       </div>
       {/* Overlay */}
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 my-5">
