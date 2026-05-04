@@ -44,7 +44,7 @@ export default function LoginPage() {
     };
 
   return (
-    <Card className="border mx-auto max-w-125 py-10 mt-5">
+    <Card className="border mx-auto max-w-125 py-10 px-1 mt-5">
 
       <h1 className="text-center text-2xl font-bold">Login Page</h1>
 
