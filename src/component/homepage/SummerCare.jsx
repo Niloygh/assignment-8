@@ -7,8 +7,8 @@ import { IoMdCheckmarkCircleOutline } from 'react-icons/io';
 const SummerCare = () => {
     return (
         <div className='bg-[#f5f5f5]'>
-            <div className="text-center py-10 space-y-5 px-5">
-                <h1 className='flex gap-2 items-center justify-center text-4xl font-bold mb-15 mt-5'><FaSun /> Summer Care with Sunglass</h1>
+            <div className="text-center py-10 space-y-5 px-5 ">
+                <h1 className='flex gap-2 items-center justify-center text-4xl font-bold mb-15 mt-5 animate__animated animate__flipInX'><FaSun /> Summer Care with Sunglass</h1>
 
                 <h2 className='text-[#1f2937] text-2xl font-semibold'>Stay Cool. Stay Protected. Step Out in Style.</h2>
 
@@ -16,7 +16,7 @@ const SummerCare = () => {
             </div>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 px-5 pt-5 pb-10">
-                <Card className='border rounded-xl'>
+                <Card className='border rounded-xl bg-[#f0f9ff] transform transition duration-300 hover:scale-102'>
                     <div className="relative w-full aspect-square">
                         <Image
                             src={'https://images.unsplash.com/photo-1511499767150-a48a237f0083'}
@@ -49,7 +49,7 @@ const SummerCare = () => {
                 </Card>
 
 
-                <Card className='border rounded-xl'>
+                <Card className='border rounded-xl bg-[#f0f9ff] transform transition duration-300 hover:scale-102'>
                     <div className="relative w-full aspect-square">
                         <Image
                             src={'https://images.unsplash.com/photo-1508296695146-257a814070b4'}
@@ -81,7 +81,8 @@ const SummerCare = () => {
 
                     <Button variant='outline' className={'w-full'} >View</Button>
                 </Card>
-                <Card className='border rounded-xl'>
+
+                <Card className='border rounded-xl bg-[#f0f9ff] transform transition duration-300 hover:scale-102'>
                     <div className="relative w-full aspect-square">
                         <Image
                             src={'https://images.unsplash.com/photo-1509695507497-903c140c43b0'}
@@ -111,7 +112,7 @@ const SummerCare = () => {
                         <p className='flex items-center gap-2'><IoMdCheckmarkCircleOutline /> Perfect for Sports & Travel</p>
                     </div>
 
-                    <Button variant='outline' className={'w-full'} >View</Button>
+                    <Button variant='outline' className={'w-full '} >View</Button>
                 </Card>
             </div>
 

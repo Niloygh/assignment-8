@@ -1,36 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## ProjectName : Sunglass
 
-## Getting Started
+*Description: Welcome to our store, your go-to destination for stylish and high-quality sunglasses. We offer a wide collection of trendy and comfortable sunglasses designed to protect your eyes while enhancing your look. Our goal is to provide premium products at affordable prices with a smooth and reliable shopping experience.*
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used : Next.js, JavaScript (ES6+), Tailwind CSS, Vercel(Deployment), react icon, better-auth, mongodb, google cloud console, HeroUI, Animate.css, react toastify.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3 Features about out project.
 
-## Learn More
+1. This website was created with the client in mind. 
 
-To learn more about Next.js, take a look at the following resources:
+2. The website is fully responsive, ensuring a smooth experience across mobile, tablet, and desktop devices.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. You will get a good experience by using my website. And the whole website is trusted.

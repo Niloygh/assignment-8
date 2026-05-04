@@ -33,7 +33,7 @@ const Navbar = () => {
                         height={30}
                         className="object-cover h-auto w-auto rounded-full"
                     />
-                    <h3 className="font-black text-lg">Sunglass</h3>
+                    <h3 className="font-black text-lg animate__animated animate__fadeIn">Sunglass</h3>
                 </div>
 
 

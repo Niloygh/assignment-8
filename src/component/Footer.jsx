@@ -31,7 +31,7 @@ const Footer = () => {
                 height={32}
                 className="dark:brightness-200 rounded-full"
               />
-              <h2 className="text-xl font-semibold tracking-tight text-black dark:text-white">
+              <h2 className="text-xl font-semibold tracking-tight text-black dark:text-white animate__animated animate__fadeIn">
                 Sunglass
               </h2>
             </div>

@@ -6,7 +6,7 @@ import { FaStar } from 'react-icons/fa';
 
 const SunglassCard = ({ sunglass }) => {
     return (
-        <Card className='border rounded-xl'>
+        <Card className='border rounded-xl '>
             <div className="relative w-full aspect-square">
                 <Image
                     src={sunglass.image}

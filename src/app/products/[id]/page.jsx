@@ -1,5 +1,5 @@
 import { sunglassesData } from '@/lib/fetchData';
-import { Card } from '@heroui/react';
+import { Button, Card } from '@heroui/react';
 import Image from 'next/image';
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
@@ -14,7 +14,7 @@ const ProductDetails = async ({ params }) => {
     console.log(sunglass)
 
     return (
-        <Card className='max-w-5xl mx-auto my-5 grid grid-cols-2 gap-10'>
+        <Card className='max-w-5xl mx-auto my-5 grid grid-cols-2 gap-10 '>
 
             {/* img */}
             <div className="">
@@ -54,13 +54,13 @@ const ProductDetails = async ({ params }) => {
 
                     {/* Buttons */}
                     <div className="flex gap-3">
-                        <button className="flex-1 bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition">
+                        <Button className="flex-1 bg-indigo-600 text-white py-2 rounded-lg hover:bg-indigo-700 transition">
                             Add to Cart
-                        </button>
+                        </Button>
 
-                        <button className="flex-1 border border-gray-300 py-2 rounded-lg hover:bg-gray-100 transition">
+                        <Button variant='outline' className="flex-1 border border-gray-300 py-2 rounded-lg hover:bg-gray-100 transition">
                             Buy Now
-                        </button>
+                        </Button>
                     </div>
                 </div>
             </div>
