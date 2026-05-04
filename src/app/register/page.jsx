@@ -11,10 +11,13 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import { useRouter } from "next/navigation";
 import { GrGoogle } from "react-icons/gr";
 import { toast } from "react-toastify";
 
-export default function registerPage() {
+export default function RegisterPage() {
+  const route = useRouter()
+  
   const onSubmit = async (e) => {
     e.preventDefault();
 
@@ -36,9 +39,10 @@ export default function registerPage() {
     }
     if (data) {
       toast.success("Register successful")
-      router.push('/')
+      route.push('/')
     }
   };
+
 
   const handleGoogleSignIn = async () => {
     const data = await authClient.signIn.social({
