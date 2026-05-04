@@ -14,7 +14,7 @@ const ProductDetails = async ({ params }) => {
     console.log(sunglass)
 
     return (
-        <Card className='max-w-5xl mx-auto my-5 grid grid-cols-2 gap-10 '>
+        <Card className='max-w-5xl mx-auto my-5 md:grid grid-cols-2 gap-10 '>
 
             {/* img */}
             <div className="">
