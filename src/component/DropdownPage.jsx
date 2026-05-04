@@ -18,7 +18,7 @@ const DropdownPage = () => {
                     </Dropdown.Item>
                     <Dropdown.Item id="copy-link" textValue="Copy link">
                         <li>
-                            <Link href={"/Products"}>Products</Link>
+                            <Link href={"/products"}>Products</Link>
                         </li>
                     </Dropdown.Item>
                     <Dropdown.Item id="edit-file" textValue="Edit file">
